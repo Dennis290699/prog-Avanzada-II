@@ -14,6 +14,11 @@
       <change afterPath="$PROJECT_DIR$/cdiEjemplo1/src/main/java/com/programacion/servicios/Operaciones.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdiEjemplo1/src/main/java/com/programacion/servicios/OperacionesImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdiEjemplo1/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/CdiEjemplo02Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/MiBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/Operaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/OperacionesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/OperacionesProducer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
@@ -33,17 +38,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2ocXQcFx23whnxKkJLHkibJQp5z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,9 +58,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.prog-Avanzada-II:cdiEjemplo1 [:cdiEjemplo1:com.programacion.CdiEjemplo01Main.main()].executor": "Run",
+    "Gradle.prog-Avanzada-II:cdiEjemplo2 [:cdiEjemplo2:com.programacion.CdiEjemplo02Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,7 +72,7 @@
       <recent name="D:\curso-IntelliJ\prog-Avanzada-II\cdiEjemplo1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CdiEjemplo02Main">
     <configuration name="CdiEjemplo01Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programacion.CdiEjemplo01Main" />
       <module name="prog-Avanzada-II.cdiEjemplo1.main" />
@@ -77,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CdiEjemplo02Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.CdiEjemplo02Main" />
+      <module name="prog-Avanzada-II.cdiEjemplo2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CdiEjemplo02Main" />
         <item itemvalue="Application.CdiEjemplo01Main" />
       </list>
     </recent_temporary>
