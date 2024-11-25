@@ -5,12 +5,14 @@ import com.programacion.db.Cuenta;
 import com.programacion.servicios.interfaces.ManejadorPersistencia;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import jakarta.transaction.Transactional;
 
 import javax.sql.DataSource;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 @ApplicationScoped
+@Transactional
 public class ManejadorPersistenciaImpl implements ManejadorPersistencia {
 
     @Inject

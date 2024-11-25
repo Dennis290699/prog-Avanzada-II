@@ -10,21 +10,25 @@ public class MainTransfereciasTx {
         SeContainer container = SeContainerInitializer.newInstance()
                 .initialize();
 
-        TransferenciaBancaria servicio = container.select(TransferenciaBancaria.class)
-                .get();
+        TransferenciaBancaria servicio = container.select(TransferenciaBancaria.class).get();
+
+        System.out.println(servicio);
+
+        String num1 = "001";
+        String num2 = "002";
 
         var manejadorPersistencia = container.select(ManejadorPersistencia.class).get();
 
-        var cuenta1 = manejadorPersistencia.buscarCuenta("001");
-        var cuenta2 = manejadorPersistencia.buscarCuenta("002");
+        var cuenta1 = manejadorPersistencia.buscarCuenta(num1);
+        var cuenta2 = manejadorPersistencia.buscarCuenta(num2);
 
         System.out.println(cuenta1);
         System.out.println(cuenta2);
 
-        servicio.transferir("002", "001", 50);
+        servicio.transferir(num2, num1, 50);
 
-        cuenta1 = manejadorPersistencia.buscarCuenta("001");
-        cuenta2 = manejadorPersistencia.buscarCuenta("002");
+        cuenta1 = manejadorPersistencia.buscarCuenta(num1);
+        cuenta2 = manejadorPersistencia.buscarCuenta(num1);
 
         System.out.println(cuenta1);
         System.out.println(cuenta2);

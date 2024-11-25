@@ -17,6 +17,13 @@ dependencies {
 
     //Base de datos: SQLite
     implementation("org.postgresql:postgresql:42.7.4")
+
+    //JTA
+    implementation("io.helidon.integrations.cdi:helidon-integrations-cdi-jta-weld:4.1.4")
+
+    //Configuraciones
+    implementation("org.apache.deltaspike.core:deltaspike-core-api:2.0.0")
+    implementation("org.apache.deltaspike.core:deltaspike-core-impl:2.0.0")
 }
 
 sourceSets {
