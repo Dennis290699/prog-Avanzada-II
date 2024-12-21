@@ -27,6 +27,7 @@
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/java/com/programacion/servicios/interfaces/ManejadorPersistencia.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/java/com/programacion/servicios/interfaces/TransferenciaBancaria.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria_tx/src/main/resources/META-INF/apache-deltaspike.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
@@ -65,6 +66,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="prog-Avanzada-II" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prog-Avanzada-II" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="prog-Avanzada-II" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -98,6 +110,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.JpaEjercicio01Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build prog-Avanzada-II.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II [build].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdiEjemplo1 [:cdiEjemplo1:com.programacion.CdiEjemplo01Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdiEjemplo1 [clean].executor&quot;: &quot;Run&quot;,
@@ -105,12 +120,19 @@
     &quot;Gradle.prog-Avanzada-II:cdiEjemplo2 [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdi_transaccion_bancaria [:cdi_transaccion_bancaria:com.programacion.MainTransferecias.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdi_transaccion_bancaria [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II:jpa_ejercicio_01 [:jpa_ejercicio_01:com.programacion.JpaEjercicio01Principal.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/curso-IntelliJ/prog-Avanzada-II/jpa_ejercicio_01/src/main/java/com/programacion&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/curso-IntelliJ/prog-Avanzada-II&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -125,9 +147,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.prog-Avanzada-II [clean]">
-    <configuration name="MainTransferecias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programacion.MainTransferecias" />
-      <module name="prog-Avanzada-II.cdi_transaccion_bancaria.main" />
+    <configuration name="JpaEjercicio01Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.JpaEjercicio01Principal" />
+      <module name="prog-Avanzada-II.jpa_ejercicio_01.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.programacion.*" />
@@ -137,6 +159,42 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="JpaEjercicio01Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="MAIN_CLASS_NAME" value="com.programacion.JpaEjercicio01Principal" />
+      <module name="prog-Avanzada-II.jpa_ejercicio_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prog-Avanzada-II [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="prog-Avanzada-II [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -182,59 +240,23 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="prog-Avanzada-II:cdiEjemplo2 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/cdiEjemplo2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="prog-Avanzada-II:cdi_transaccion_bancaria [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/cdi_transaccion_bancaria" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.prog-Avanzada-II [clean]" />
+        <item itemvalue="Gradle.prog-Avanzada-II [build]" />
+        <item itemvalue="Application.JpaEjercicio01Principal (1)" />
+        <item itemvalue="Application.JpaEjercicio01Principal" />
         <item itemvalue="Gradle.prog-Avanzada-II:cdiEjemplo1 [clean]" />
-        <item itemvalue="Gradle.prog-Avanzada-II:cdiEjemplo2 [clean]" />
-        <item itemvalue="Gradle.prog-Avanzada-II:cdi_transaccion_bancaria [clean]" />
-        <item itemvalue="Application.MainTransferecias" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -246,6 +268,18 @@
       <updated>1731169822733</updated>
       <workItem from="1731969239419" duration="71000" />
       <workItem from="1731969330546" duration="52000" />
+      <workItem from="1732993966409" duration="872000" />
+      <workItem from="1733069815531" duration="261000" />
+      <workItem from="1734233678160" duration="1260000" />
+      <workItem from="1734733057009" duration="224000" />
+      <workItem from="1734733292487" duration="1378000" />
+      <workItem from="1734734807247" duration="4019000" />
+      <workItem from="1734738956231" duration="226000" />
+      <workItem from="1734739216411" duration="13000" />
+      <workItem from="1734739260203" duration="247000" />
+      <workItem from="1734739517977" duration="193000" />
+      <workItem from="1734739739997" duration="345000" />
+      <workItem from="1734740095528" duration="68000" />
     </task>
     <servers />
   </component>

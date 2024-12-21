@@ -4,4 +4,4 @@ include("cdiEjemplo2")
 include("cdi_transaccion_bancaria")
 include("spring_transaccion_bancaria")
 include("cdi_transaccion_bancaria_tx")
-
+include("jpa_ejercicio_01")
