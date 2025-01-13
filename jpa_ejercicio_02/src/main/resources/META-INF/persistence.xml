@@ -4,18 +4,12 @@
              version="3.0">
 
     <persistence-unit name="books-db">
-
-        <class>com.programacion.avanzada2.db.Author</class>
-        <class>com.programacion.avanzada2.db.Book</class>
-
         <properties>
-            <property name="jakarta.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:sqlite:books.db"/>
-            <property name="jakarta.persistence.jdbc.user" value="sa"/>
-            <property name="jakarta.persistence.jdbc.password" value=""/>
-            
             <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
-            <property name="jakarta.persistence.sql-load-script-source" value="schema.sql"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="schema-DataInserts-books-db.sql"/>
+
+            <property name="jakarta.persistence.schema-generation.scripts.action" value="create"/>
+            <property name="jakarta.persistence.schema-generation.scripts.create-target" value="schema-books-db.sql"/>
 
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
