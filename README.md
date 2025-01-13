@@ -19,6 +19,8 @@ A continuación, se encuentra un índice de las carpetas y archivos del reposito
 
 6. [jpa_ejercicio_01](./jpa_ejercicio_01) JPA.
 
+7. [jpa_ejercicio_02](./jpa_ejercicio_02) JPA.
+
 ## Cómo usar este repositorio
 
 1. Explora el índice y selecciona la sección que te interesa.
