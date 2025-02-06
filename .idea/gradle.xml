@@ -11,9 +11,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/cdiEjemplo1" />
             <option value="$PROJECT_DIR$/cdiEjemplo2" />
+            <option value="$PROJECT_DIR$/cdi_examen_parcial" />
             <option value="$PROJECT_DIR$/cdi_transaccion_bancaria" />
             <option value="$PROJECT_DIR$/cdi_transaccion_bancaria_tx" />
+            <option value="$PROJECT_DIR$/concurrente_01" />
             <option value="$PROJECT_DIR$/jpa_ejercicio_01" />
+            <option value="$PROJECT_DIR$/jpa_ejercicio_02" />
+            <option value="$PROJECT_DIR$/practica_prueba_jpa" />
             <option value="$PROJECT_DIR$/spring_transaccion_bancaria" />
           </set>
         </option>

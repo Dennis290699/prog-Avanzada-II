@@ -19,6 +19,12 @@
       <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/Operaciones.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/OperacionesImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdiEjemplo2/src/main/java/com/programacion/servicios/OperacionesProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_examen_parcial/src/main/java/com/programacion/MainExamen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_examen_parcial/src/main/java/com/programacion/config/DbConfigMongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_examen_parcial/src/main/java/com/programacion/config/DbConfigSQLite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_examen_parcial/src/main/java/com/programacion/db/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_examen_parcial/src/main/resources/META-INF/apache-deltaspike.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cdi_examen_parcial/src/main/resources/META-INF/beans.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/java/com/programacion/MainTransferecias.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/java/com/programacion/config/DbConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/java/com/programacion/db/Cuenta.java" afterDir="false" />
@@ -28,10 +34,32 @@
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/java/com/programacion/servicios/interfaces/TransferenciaBancaria.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria/src/main/resources/META-INF/beans.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cdi_transaccion_bancaria_tx/src/main/resources/META-INF/apache-deltaspike.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrente_01/src/main/java/com/programacion/SumaMultiHilosMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrente_01/src/main/java/com/programacion/SumaVectorMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/java/JpaCdiMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/java/com/programacion/avanzada2/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/java/com/programacion/avanzada2/db/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/java/com/programacion/avanzada2/db/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/java/com/programacion/avanzada2/servicios/HolaMundo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/resources/persistence-books-db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa_ejercicio_02/src/main/resources/schema-DataInserts-books-db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/java/com/programacion/MainPracticaPrueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/java/com/programacion/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/java/com/programacion/db/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/java/com/programacion/db/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/java/com/programacion/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/java/com/programacion/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/resources/persistence-pruebas-db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practica_prueba_jpa/src/main/resources/schema-DataInserts-pruebaJPA-db.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +123,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
@@ -113,6 +145,7 @@
     &quot;Application.JpaEjercicio01Principal.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build prog-Avanzada-II.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II [classes].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdiEjemplo1 [:cdiEjemplo1:com.programacion.CdiEjemplo01Main.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdiEjemplo1 [clean].executor&quot;: &quot;Run&quot;,
@@ -120,36 +153,64 @@
     &quot;Gradle.prog-Avanzada-II:cdiEjemplo2 [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdi_transaccion_bancaria [:cdi_transaccion_bancaria:com.programacion.MainTransferecias.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:cdi_transaccion_bancaria [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II:concurrente_01 [:concurrente_01:com.programacion.SumaMultiHilosMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II:concurrente_01 [:concurrente_01:com.programacion.SumaVectorMain.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.prog-Avanzada-II:jpa_ejercicio_01 [:jpa_ejercicio_01:com.programacion.JpaEjercicio01Principal.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II:jpa_ejercicio_02 [:jpa_ejercicio_02:JpaCdiMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.prog-Avanzada-II:practica_prueba_jpa [:practica_prueba_jpa:com.programacion.MainPracticaPrueba.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;D:/curso-IntelliJ/prog-Avanzada-II/jpa_ejercicio_01/src/main/java/com/programacion&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/curso-IntelliJ/prog-Avanzada-II&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/curso-IntelliJ/prog-Avanzada-II/jpa_ejercicio_02/src/main/resources/META-INF&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;documentdb&quot;,
+      &quot;sqlite&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\jpa_ejercicio_02\src\main\resources\META-INF" />
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\practica_prueba_jpa\src\main\resources\META-INF" />
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\practica_prueba_jpa\src\main\resources" />
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\jpa_ejercicio_02\src\main\resources" />
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\jpa_ejercicio_02\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\jpa_ejercicio_02\src\main\resources" />
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\practica_prueba_jpa\src\main\resources\META-INF" />
+      <recent name="D:\curso-IntelliJ\prog-Avanzada-II\jpa_ejercicio_02\src\main\java" />
       <recent name="D:\curso-IntelliJ\prog-Avanzada-II\cdiEjemplo1\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.prog-Avanzada-II [clean]">
-    <configuration name="JpaEjercicio01Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programacion.JpaEjercicio01Principal" />
-      <module name="prog-Avanzada-II.jpa_ejercicio_01.main" />
+    <configuration name="JpaCdiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JpaCdiMain" />
+      <module name="prog-Avanzada-II.jpa_ejercicio_02.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPracticaPrueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.MainPracticaPrueba" />
+      <module name="prog-Avanzada-II.practica_prueba_jpa.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.programacion.*" />
@@ -160,10 +221,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaEjercicio01Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="MAIN_CLASS_NAME" value="com.programacion.JpaEjercicio01Principal" />
-      <module name="prog-Avanzada-II.jpa_ejercicio_01" />
+    <configuration name="SumaMultiHilosMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.SumaMultiHilosMain" />
+      <module name="prog-Avanzada-II.concurrente_01.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.programacion.*" />
@@ -174,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prog-Avanzada-II [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="prog-Avanzada-II [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -185,7 +245,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="classes" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,35 +278,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="prog-Avanzada-II:cdiEjemplo1 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/cdiEjemplo1" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.prog-Avanzada-II [clean]" />
-        <item itemvalue="Gradle.prog-Avanzada-II [build]" />
-        <item itemvalue="Application.JpaEjercicio01Principal (1)" />
-        <item itemvalue="Application.JpaEjercicio01Principal" />
-        <item itemvalue="Gradle.prog-Avanzada-II:cdiEjemplo1 [clean]" />
+        <item itemvalue="Application.JpaCdiMain" />
+        <item itemvalue="Application.MainPracticaPrueba" />
+        <item itemvalue="Gradle.prog-Avanzada-II [classes]" />
+        <item itemvalue="Application.SumaMultiHilosMain" />
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +318,21 @@
       <workItem from="1734739517977" duration="193000" />
       <workItem from="1734739739997" duration="345000" />
       <workItem from="1734740095528" duration="68000" />
+      <workItem from="1735605390908" duration="1387000" />
+      <workItem from="1736722199380" duration="29000" />
+      <workItem from="1736722236626" duration="32000" />
+      <workItem from="1736725963255" duration="717000" />
+      <workItem from="1736809886492" duration="2131000" />
+      <workItem from="1736812395975" duration="31000" />
+      <workItem from="1738008186038" duration="809000" />
+      <workItem from="1738706745954" duration="205000" />
+      <workItem from="1738706962000" duration="4342000" />
+      <workItem from="1738711379246" duration="3929000" />
+      <workItem from="1738786191626" duration="1754000" />
+      <workItem from="1738806408698" duration="2530000" />
+      <workItem from="1738810897326" duration="4596000" />
+      <workItem from="1738815537758" duration="4065000" />
+      <workItem from="1738823126840" duration="47000" />
     </task>
     <servers />
   </component>
